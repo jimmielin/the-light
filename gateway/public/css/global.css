@@ -1,0 +1,56 @@
+body {
+	font-family: "Microsoft YaHei Light", Arial, sans-serif;
+}
+
+.navbar a { color: #fff; text-shadow: none; }
+.navbar .nav li a { 
+	transition: 0.1s;
+}
+
+	.navbar .nav li:not(.dd) a:hover {
+		background: #c40000;
+		border-bottom: 4px solid #ddd;
+	}
+
+	.navbar .nav li.active a { font-weight: bold; }
+
+.jumbotron {
+	background: #8f000b;
+}
+
+.jumbotron h1 {
+	font-size: 24px;
+	color: #f7f7f7;
+}
+	.jumbotron h2 {
+		font-size: 17px;
+		color: #f7f7f7;
+		margin-bottom: 0;
+		line-height: 1.2;
+	}
+
+.nav-mine {
+	background: #f8f8f8;
+}
+
+	.nav-pills li.active a { background-color: #C5333F !important; }
+		.nav-pills li.active a:hover { background-color: #E73C4A !important; }
+
+#myTabs .tab-pane {
+	background: #f7f7f7;
+	padding: 16px;
+	margin-top: 5px;
+}
+
+	.item-info { text-align: center; }
+	.item-info-main .label { font-size: 12px; vertical-align: middle; }
+	.item-info h2, .item-info h3 {
+		margin: 8px 0 0 0;
+	}
+
+	.item-info h3 { color: #FF6A00; }
+
+	.item-info h3 span {
+		vertical-align: text-top;
+		font-size: 13px;
+	}
